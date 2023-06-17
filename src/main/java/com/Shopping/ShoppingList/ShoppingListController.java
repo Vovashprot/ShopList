@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Set;
 
 @RestController
-@RequestMapping()
+@RequestMapping("/store/order")
 public class ShoppingListController {
     private final ShoppingListService service;
 
